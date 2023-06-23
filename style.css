@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+
+:root {
+    --Background-Color : #FFFAD7;
+    --Font-Family : "Barlow" , sans-serif;
+    --Shadow : 0 30px 50px rgba(30,21,49.0.3);
+    --Radius : 8px;
+    --Font-Color : #0e101a;
+    --Font-Size : 16px;
+    --Line-Height : 28px;
+    --Textarea-Background : #FFE4A7;
+}
+
+*{
+    padding : 0px;
+    margin : 0px;
+    box-sizing: border-box;
+    font-family: var(--Font-Family) !important;
+}
+
+
+body {
+
+    background-color: var(--Background-Color);
+}
+
+.wrapper{
+    position: absolute;
+    width: 90vmin;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+
+    background-color: #FFF;
+    padding: 50px 30px 80px 30px;
+    border-radius: var(--Radius);
+    box-shadow: var(--Shadow);
+
+}
+
+textarea{
+
+    width: 100%;
+    border: none;
+    padding : 10px;
+    resize: none;
+    font-size: var(--Font-Size);
+    color: var(--Font-Color);
+    outline: none;
+    line-height: var(--Line-Height);
+    
+
+}
+
+.count {
+    background-color: var(--Textarea-Background);
+    width: 80%;
+    padding: 20px;
+    position: relative;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+
+}
+
+.count p {
+
+    color: var(--Font-Color) ;
+
+}
+
+.count h5 {
+
+    color: #FFF;
+    font-size: 32px;
+}
