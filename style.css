@@ -9,6 +9,7 @@
     --Font-Size : 16px;
     --Line-Height : 28px;
     --Textarea-Background : #FFE4A7;
+    --Author-Name-Font-Size : 24px;
 }
 
 *{
@@ -80,4 +81,11 @@ textarea{
 
     color: #FFF;
     font-size: 32px;
+}
+
+.author-name {
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: var(--Author-Name-Font-Size);
 }
